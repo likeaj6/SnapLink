@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96C51A859EE1BAE46A1F3D73 /* Pods_SnapLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD4C2C5FB27F64D644949BE /* Pods_SnapLink.framework */; };
+		F47EE9841E86AA44001AE521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47EE9831E86AA44001AE521 /* AppDelegate.swift */; };
+		F47EE9861E86AA44001AE521 /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47EE9851E86AA44001AE521 /* OCRViewController.swift */; };
+		F47EE9891E86AA44001AE521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47EE9871E86AA44001AE521 /* Main.storyboard */; };
+		F47EE98C1E86AA44001AE521 /* SnapLink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F47EE98A1E86AA44001AE521 /* SnapLink.xcdatamodeld */; };
+		F47EE98E1E86AA44001AE521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47EE98D1E86AA44001AE521 /* Assets.xcassets */; };
+		F47EE9911E86AA44001AE521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47EE98F1E86AA44001AE521 /* LaunchScreen.storyboard */; };
+		F47EE99B1E86ABDB001AE521 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = F47EE99A1E86ABDB001AE521 /* tessdata */; };
+		F4A338441E86E582004C8DA5 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A3383F1E86E53C004C8DA5 /* GPUImage.framework */; };
+		F4A338461E86E5A6004C8DA5 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4A3383F1E86E53C004C8DA5 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4A3384B1E874A27004C8DA5 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3384A1E874A27004C8DA5 /* TextViewController.swift */; };
+		F4CD2EE41E86B18300877A1C /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD2EE01E86B18300877A1C /* PreviewView.swift */; };
+		F4CD2EE51E86B18300877A1C /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD2EE11E86B18300877A1C /* SwiftyCamButton.swift */; };
+		F4CD2EE61E86B18300877A1C /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD2EE21E86B18300877A1C /* SwiftyCamViewController.swift */; };
+		F4CD2EE71E86B18300877A1C /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD2EE31E86B18300877A1C /* SwiftyCamViewControllerDelegate.swift */; };
+		F4CD2EEC1E86B34A00877A1C /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD2EEB1E86B34A00877A1C /* SwiftyRecordButton.swift */; };
+		F4CD2EEE1E86B37C00877A1C /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD2EED1E86B37C00877A1C /* PhotoViewController.swift */; };
+		F4CD2EF41E86B41700877A1C /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD2EF31E86B41700877A1C /* VideoViewController.swift */; };
+		F4CD2EF71E86B66C00877A1C /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD2EF51E86B66C00877A1C /* SCLAlertView.swift */; };
+		F4CD2EF81E86B66C00877A1C /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD2EF61E86B66C00877A1C /* SCLExtensions.swift */; };
+		F4CD2EFA1E86BC8E00877A1C /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD2EF91E86BC8E00877A1C /* ProgressBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4A3383A1E86E53C004C8DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A338331E86E53C004C8DA5 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC6E7CAB1C39A9D8006DF678;
+			remoteInfo = GPUImage_macOS;
+		};
+		F4A3383C1E86E53C004C8DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A338331E86E53C004C8DA5 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC6E7CB51C39A9D8006DF678;
+			remoteInfo = GPUImageTests_macOS;
+		};
+		F4A3383E1E86E53C004C8DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A338331E86E53C004C8DA5 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9E34E91E524A2200B8604F;
+			remoteInfo = GPUImage_iOS;
+		};
+		F4A338401E86E53C004C8DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A338331E86E53C004C8DA5 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9E34F11E524A2200B8604F;
+			remoteInfo = GPUImageTests_iOS;
+		};
+		F4A338421E86E56C004C8DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A338331E86E53C004C8DA5 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9E34E81E524A2200B8604F;
+			remoteInfo = GPUImage_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4A338451E86E590004C8DA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F4A338461E86E5A6004C8DA5 /* GPUImage.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DD4C2C5FB27F64D644949BE /* Pods_SnapLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF1A3596E3177FE79475975 /* Pods-SnapLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapLink.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapLink/Pods-SnapLink.release.xcconfig"; sourceTree = "<group>"; };
+		C666458D573B37C7A4C70D74 /* Pods-SnapLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapLink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapLink/Pods-SnapLink.debug.xcconfig"; sourceTree = "<group>"; };
+		F47EE9801E86AA44001AE521 /* SnapLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47EE9831E86AA44001AE521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F47EE9851E86AA44001AE521 /* OCRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
+		F47EE9881E86AA44001AE521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F47EE98B1E86AA44001AE521 /* SnapLink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnapLink.xcdatamodel; sourceTree = "<group>"; };
+		F47EE98D1E86AA44001AE521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F47EE9901E86AA44001AE521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F47EE9921E86AA44001AE521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47EE99A1E86ABDB001AE521 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		F4A338331E86E53C004C8DA5 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../../../Downloads/GPUImage2-master/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
+		F4A3384A1E874A27004C8DA5 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		F4CD2EE01E86B18300877A1C /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = "../../../../../Downloads/SwiftyCam-master/Source/PreviewView.swift"; sourceTree = "<group>"; };
+		F4CD2EE11E86B18300877A1C /* SwiftyCamButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyCamButton.swift; path = "../../../../../Downloads/SwiftyCam-master/Source/SwiftyCamButton.swift"; sourceTree = "<group>"; };
+		F4CD2EE21E86B18300877A1C /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewController.swift; path = "../../../../../Downloads/SwiftyCam-master/Source/SwiftyCamViewController.swift"; sourceTree = "<group>"; };
+		F4CD2EE31E86B18300877A1C /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewControllerDelegate.swift; path = "../../../../../Downloads/SwiftyCam-master/Source/SwiftyCamViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		F4CD2EEB1E86B34A00877A1C /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
+		F4CD2EED1E86B37C00877A1C /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = ../PhotoViewController.swift; sourceTree = "<group>"; };
+		F4CD2EF31E86B41700877A1C /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		F4CD2EF51E86B66C00877A1C /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		F4CD2EF61E86B66C00877A1C /* SCLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLExtensions.swift; sourceTree = "<group>"; };
+		F4CD2EF91E86BC8E00877A1C /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		F4CD2F011E86C85D00877A1C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F47EE97D1E86AA44001AE521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A338441E86E582004C8DA5 /* GPUImage.framework in Frameworks */,
+				96C51A859EE1BAE46A1F3D73 /* Pods_SnapLink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D787F244BC759EC1047662 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C666458D573B37C7A4C70D74 /* Pods-SnapLink.debug.xcconfig */,
+				6BF1A3596E3177FE79475975 /* Pods-SnapLink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1FF729AAC15A965BE7A15E12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CD2F011E86C85D00877A1C /* opencv2.framework */,
+				4DD4C2C5FB27F64D644949BE /* Pods_SnapLink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F47EE9771E86AA44001AE521 = {
+			isa = PBXGroup;
+			children = (
+				F47EE9821E86AA44001AE521 /* SnapLink */,
+				F47EE9811E86AA44001AE521 /* Products */,
+				17D787F244BC759EC1047662 /* Pods */,
+				1FF729AAC15A965BE7A15E12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F47EE9811E86AA44001AE521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47EE9801E86AA44001AE521 /* SnapLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F47EE9821E86AA44001AE521 /* SnapLink */ = {
+			isa = PBXGroup;
+			children = (
+				F4CD2EF51E86B66C00877A1C /* SCLAlertView.swift */,
+				F4CD2EF61E86B66C00877A1C /* SCLExtensions.swift */,
+				F47EE99A1E86ABDB001AE521 /* tessdata */,
+				F47EE9831E86AA44001AE521 /* AppDelegate.swift */,
+				F4CD2EE81E86B18900877A1C /* SnapCam */,
+				F47EE9851E86AA44001AE521 /* OCRViewController.swift */,
+				F47EE9871E86AA44001AE521 /* Main.storyboard */,
+				F47EE98D1E86AA44001AE521 /* Assets.xcassets */,
+				F47EE98F1E86AA44001AE521 /* LaunchScreen.storyboard */,
+				F47EE9921E86AA44001AE521 /* Info.plist */,
+				F47EE98A1E86AA44001AE521 /* SnapLink.xcdatamodeld */,
+			);
+			path = SnapLink;
+			sourceTree = "<group>";
+		};
+		F4A338341E86E53C004C8DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3383B1E86E53C004C8DA5 /* GPUImage.framework */,
+				F4A3383D1E86E53C004C8DA5 /* GPUImageTests_macOS.xctest */,
+				F4A3383F1E86E53C004C8DA5 /* GPUImage.framework */,
+				F4A338411E86E53C004C8DA5 /* GPUImageTests_iOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CD2EE81E86B18900877A1C /* SnapCam */ = {
+			isa = PBXGroup;
+			children = (
+				F4CD2EE01E86B18300877A1C /* PreviewView.swift */,
+				F4CD2EF31E86B41700877A1C /* VideoViewController.swift */,
+				F4CD2EE11E86B18300877A1C /* SwiftyCamButton.swift */,
+				F4CD2EE21E86B18300877A1C /* SwiftyCamViewController.swift */,
+				F4CD2EED1E86B37C00877A1C /* PhotoViewController.swift */,
+				F4A3384A1E874A27004C8DA5 /* TextViewController.swift */,
+				F4A338331E86E53C004C8DA5 /* GPUImage.xcodeproj */,
+				F4CD2EF91E86BC8E00877A1C /* ProgressBar.swift */,
+				F4CD2EEB1E86B34A00877A1C /* SwiftyRecordButton.swift */,
+				F4CD2EE31E86B18300877A1C /* SwiftyCamViewControllerDelegate.swift */,
+			);
+			name = SnapCam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F47EE97F1E86AA44001AE521 /* SnapLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F47EE9951E86AA44001AE521 /* Build configuration list for PBXNativeTarget "SnapLink" */;
+			buildPhases = (
+				1D6122F92537A9375350B1D7 /* [CP] Check Pods Manifest.lock */,
+				F47EE97C1E86AA44001AE521 /* Sources */,
+				F47EE97D1E86AA44001AE521 /* Frameworks */,
+				F47EE97E1E86AA44001AE521 /* Resources */,
+				483A7A86876358780914FF61 /* [CP] Embed Pods Frameworks */,
+				FBA268C9AFD0968F9BED3A12 /* [CP] Copy Pods Resources */,
+				F4A338451E86E590004C8DA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4A338431E86E56C004C8DA5 /* PBXTargetDependency */,
+			);
+			name = SnapLink;
+			productName = SnapLink;
+			productReference = F47EE9801E86AA44001AE521 /* SnapLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F47EE9781E86AA44001AE521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jason Jin";
+				TargetAttributes = {
+					F47EE97F1E86AA44001AE521 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JBVZTGFYCC;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F47EE97B1E86AA44001AE521 /* Build configuration list for PBXProject "SnapLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F47EE9771E86AA44001AE521;
+			productRefGroup = F47EE9811E86AA44001AE521 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F4A338341E86E53C004C8DA5 /* Products */;
+					ProjectRef = F4A338331E86E53C004C8DA5 /* GPUImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F47EE97F1E86AA44001AE521 /* SnapLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F4A3383B1E86E53C004C8DA5 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = F4A3383A1E86E53C004C8DA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F4A3383D1E86E53C004C8DA5 /* GPUImageTests_macOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests_macOS.xctest;
+			remoteRef = F4A3383C1E86E53C004C8DA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F4A3383F1E86E53C004C8DA5 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = F4A3383E1E86E53C004C8DA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F4A338411E86E53C004C8DA5 /* GPUImageTests_iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests_iOS.xctest;
+			remoteRef = F4A338401E86E53C004C8DA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F47EE97E1E86AA44001AE521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47EE9911E86AA44001AE521 /* LaunchScreen.storyboard in Resources */,
+				F47EE99B1E86ABDB001AE521 /* tessdata in Resources */,
+				F47EE98E1E86AA44001AE521 /* Assets.xcassets in Resources */,
+				F47EE9891E86AA44001AE521 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D6122F92537A9375350B1D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		483A7A86876358780914FF61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapLink/Pods-SnapLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA268C9AFD0968F9BED3A12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapLink/Pods-SnapLink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F47EE97C1E86AA44001AE521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CD2EF81E86B66C00877A1C /* SCLExtensions.swift in Sources */,
+				F47EE98C1E86AA44001AE521 /* SnapLink.xcdatamodeld in Sources */,
+				F4CD2EE41E86B18300877A1C /* PreviewView.swift in Sources */,
+				F47EE9861E86AA44001AE521 /* OCRViewController.swift in Sources */,
+				F4CD2EE51E86B18300877A1C /* SwiftyCamButton.swift in Sources */,
+				F4A3384B1E874A27004C8DA5 /* TextViewController.swift in Sources */,
+				F4CD2EEC1E86B34A00877A1C /* SwiftyRecordButton.swift in Sources */,
+				F4CD2EEE1E86B37C00877A1C /* PhotoViewController.swift in Sources */,
+				F4CD2EE61E86B18300877A1C /* SwiftyCamViewController.swift in Sources */,
+				F4CD2EE71E86B18300877A1C /* SwiftyCamViewControllerDelegate.swift in Sources */,
+				F4CD2EF41E86B41700877A1C /* VideoViewController.swift in Sources */,
+				F4CD2EFA1E86BC8E00877A1C /* ProgressBar.swift in Sources */,
+				F4CD2EF71E86B66C00877A1C /* SCLAlertView.swift in Sources */,
+				F47EE9841E86AA44001AE521 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4A338431E86E56C004C8DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage_iOS;
+			targetProxy = F4A338421E86E56C004C8DA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F47EE9871E86AA44001AE521 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F47EE9881E86AA44001AE521 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F47EE98F1E86AA44001AE521 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F47EE9901E86AA44001AE521 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F47EE9931E86AA44001AE521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F47EE9941E86AA44001AE521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F47EE9961E86AA44001AE521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C666458D573B37C7A4C70D74 /* Pods-SnapLink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JBVZTGFYCC;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SnapLink",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SnapLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjin.SnapLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F47EE9971E86AA44001AE521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF1A3596E3177FE79475975 /* Pods-SnapLink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JBVZTGFYCC;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SnapLink",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SnapLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjin.SnapLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F47EE97B1E86AA44001AE521 /* Build configuration list for PBXProject "SnapLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47EE9931E86AA44001AE521 /* Debug */,
+				F47EE9941E86AA44001AE521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F47EE9951E86AA44001AE521 /* Build configuration list for PBXNativeTarget "SnapLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47EE9961E86AA44001AE521 /* Debug */,
+				F47EE9971E86AA44001AE521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F47EE98A1E86AA44001AE521 /* SnapLink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F47EE98B1E86AA44001AE521 /* SnapLink.xcdatamodel */,
+			);
+			currentVersion = F47EE98B1E86AA44001AE521 /* SnapLink.xcdatamodel */;
+			path = SnapLink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F47EE9781E86AA44001AE521 /* Project object */;
+}

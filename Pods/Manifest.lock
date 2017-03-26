@@ -1,0 +1,25 @@
+PODS:
+  - SCLAlertView (0.7.0)
+  - TesseractOCRiOS (4.0.0)
+
+DEPENDENCIES:
+  - SCLAlertView (from `https://github.com/vikmeup/SCLAlertView-Swift.git`, branch `master`)
+  - TesseractOCRiOS (= 4.0.0)
+
+EXTERNAL SOURCES:
+  SCLAlertView:
+    :branch: master
+    :git: https://github.com/vikmeup/SCLAlertView-Swift.git
+
+CHECKOUT OPTIONS:
+  SCLAlertView:
+    :commit: e0747dfc77e75e1081159d9d9ce77c7f117b4abf
+    :git: https://github.com/vikmeup/SCLAlertView-Swift.git
+
+SPEC CHECKSUMS:
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
+
+PODFILE CHECKSUM: e46f23b77a71db197ccac543f3ef42fa064bd8b1
+
+COCOAPODS: 1.0.1
